@@ -12,7 +12,7 @@ const Game = ({ name, released, image, id }) => {
   const stringPathId = id.toString();
   //Load details
   const dispatch = useDispatch();
-  //load detail handler
+  //load details handler
   const loadDetailHandler = () => {
     document.body.style.overflow = "hidden";
     dispatch(loadDetail(id));
